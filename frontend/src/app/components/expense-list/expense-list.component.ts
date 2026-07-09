@@ -9,7 +9,7 @@ import { Expense } from '../../models/expense.model';
   template: `
     <div class="list-card">
       <div class="list-header">
-        <h2>📋 Mis Gastos</h2>
+        <h2>Mis Gastos - Quite el emoji jeje</h2>
         <span class="total">Total: {{ total | currency:'USD':'symbol':'1.2-2' }}</span>
       </div>
 
