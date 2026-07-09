@@ -35,6 +35,6 @@ jobs:
 
       - name: 🚀 Deploy a Railway
         working-directory: backend
-        run: railway up --ci
+        run: railway up --service mod5-univalle-final-project --ci
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
