@@ -35,6 +35,6 @@ jobs:
 
       - name: 🚀 Deploy a Railway
         working-directory: backend
-        run: railway up --service ${{ vars.RAILWAY_SERVICE_NAME }} --ci
+        run: railway up --ci
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
